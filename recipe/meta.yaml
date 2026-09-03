@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 43ed028ff38a41ca0ba77fe0b05f796d5d58898a2209abeb0df58687c5f75611
 
 build:
@@ -20,12 +20,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
   run:
     - matplotlib-base
     - numpy
     - pandas >=1.0.1
-    - python
+    - python >={{ python_min }}
     - requests
     - pytorch >=1.0.0
     - tqdm >=4.31.1
@@ -40,7 +40,7 @@ test:
     - bert-score --help
     - bert-score-show --help
   requires:
-    - pytest
+    - python {{ python_min }}
 
 about:
   home: https://github.com/Tiiiger/bert_score
