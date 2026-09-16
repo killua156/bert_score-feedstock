@@ -1,7 +1,7 @@
 About bert_score-feedstock
 ==========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bert_score-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/v1-migration-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Tiiiger/bert_score
 
@@ -20,8 +20,8 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <a href="https://github.com/conda-forge/bert_score-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/bert_score-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      <a href="https://github.com/conda-forge/v1-migration-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/v1-migration-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
@@ -192,6 +192,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@killua156](https://github.com/killua156/)
 * [@ndmaxar](https://github.com/ndmaxar/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
